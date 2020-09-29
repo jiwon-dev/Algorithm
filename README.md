@@ -6,4 +6,5 @@
 4. git add * -> 현재 폴더에 있는 모든 파일을 깃에 add함
 5. git commit -m "변경된 메시지 내용 입력" -> add 후, push 전에 변경 사항을 commit해서 내 컴퓨터에 저장
 6. git push -u origin master -> 변경된 내용 push
+
 2020.02.29 부터 지금까지 문제 푼 것들을 정리
