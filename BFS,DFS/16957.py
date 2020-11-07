@@ -23,6 +23,7 @@ q.sort(key=lambda x:[x[0]])
 q=deque(q)
 
 while q:
+    print(q)
     t,a,b,x,y=q.popleft()
     for xx,yy in (x-1,y),(x+1,y),(x,y+1),(x,y-1),(x-1,y-1),(x-1,y+1),(x+1,y-1),(x+1,y+1):
         if 0<=xx<r and 0<=yy<c and vis[xx][yy]==-1:
