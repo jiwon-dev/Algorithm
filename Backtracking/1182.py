@@ -16,3 +16,4 @@ def dfs(cnt):
     total-=seq[cnt]
 dfs(0)
 print(ans)
+
