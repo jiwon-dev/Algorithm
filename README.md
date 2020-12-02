@@ -8,9 +8,12 @@
 6. git push -u origin master -> 변경된 내용 push
 7. git config --global user.email "jiwon9902@naver.com"
 8. git config --global user.name "jiwon-dev"
+9. git add -A
 
 https://vclock.kr/stopwatch/ <- 스톱워치
 
 https://www.youtube.com/watch?v=nxKfi-6EtmY <- 코딩 노래
+
+https://blog.naver.com/kks227 <- 알고리즘 공부 블로그
 
 2020.02.29 부터 지금까지 문제 푼 것들을 정리
