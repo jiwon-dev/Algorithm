@@ -17,7 +17,7 @@ for _ in range(int(input())):
     while q:
         w,u,total=heapq.heappop(q)
         for ww,v,c in D[u]:
-            if total+c<=M:
+            if total+c<=M and dist[v]>dist[u]+ww:
                 dist[v]=dist[u]+ww
-                heapq.heappush(q,(-dist[v],v,total+c))
+                heapq.heappush(q,(dist[v],v,total+c))
     print('Poor KCM' if dist[N]==float('inf') else dist[N])
