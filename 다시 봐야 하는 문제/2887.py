@@ -1,8 +1,6 @@
 import sys
 input=sys.stdin.readline
-# 50m 28s
-# x,y,z 중 하나의 좌표값이라도 서로 인접해 있는 행성들끼리만 서로 연결해볼 가치가 있음
-# x로 정렬, y로 정렬, z로 정렬 3번 수행한 뒤 최소 비용으로 업데이트
+# 1시간 이상
 INF=float('inf')
 def find(n):
     if p[n]<0: return n
