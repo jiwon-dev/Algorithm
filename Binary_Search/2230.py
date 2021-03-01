@@ -14,5 +14,13 @@ for i in range(N):
         mid=(s+e)//2
         if abs(S[mid]-S[i])<M: s=mid+1
         else: e=mid-1; ans=min(ans,abs(S[mid]-S[i]))
-print(ans)
 
+# 투 포인터
+s,e=0,0
+S.sort()
+ans=float('inf')
+while s<N and e<N:
+    # 포인터 둘다 N 미만일 때만 반복문 돌면 됨
+    if S[e]-S[s]>=M: ans=min(ans,S[e]-S[s]); s+=1
+    else: e+=1
+print(ans)
